@@ -11,8 +11,12 @@ Install [ODBC Driver 13 for SQL Server](https://www.microsoft.com/en-us/download
 ```python
 class DbConnect:
     server = ''
-    database = ''
-    username = ''
-    password = ''
     driver= '{ODBC Driver 13 for SQL Server}'
+```
+
+# Arguments be like:
+```bash
+database
+username
+password
 ```
